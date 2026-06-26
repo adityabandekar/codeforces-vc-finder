@@ -4,7 +4,6 @@ from discord.ext import commands
 from dotenv import load_dotenv
 from bot_commands import setup_commands
 
-
 load_dotenv()
 TOKEN = os.getenv("DISCORD_TOKEN")
 intents = discord.Intents.default()
@@ -21,6 +20,5 @@ async def on_ready():
 @bot.event
 async def setup_hook():
     await bot.tree.sync()
-
 
 bot.run(TOKEN)
