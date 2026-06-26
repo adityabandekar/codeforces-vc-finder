@@ -4,7 +4,7 @@ Discord bot to select unused virtual contests in codeforces.
 
 **Commands**
 
-/find_vc <list of handles or discord handles\>  
+/find_vc <list of codeforces handles or discord @'s\>  
 Example: /find_vc wobert @lookcook dartvolley
 
 /set_my_alts <list of your alts\>  
